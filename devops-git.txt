@@ -1,0 +1,88 @@
+pwd
+mkdir gitrepo
+cd gitrepo
+echo "# acn-devops" >> README.md
+ls
+git init
+ls -a
+cd .git/
+cd ..
+git status
+git add README.md
+git status
+git commit -m "first commit"
+e.g:- git commit -m "20191014 1st commit"
+------------------------------------
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+e.g:- git config --global user.email "rks.gcloud@gmail.com"
+      git config --global user.name "RKS"
+      git commit -m "first commit"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Admin@CR910.(none)')
+-------------------------------------------------
+
+touch file{1.2,3}{1,2}
+ git log
+git remote -v
+--
+$ git remote -v
+origin  https://github.com/rks20191014/acn-devops.git (fetch)
+origin  https://github.com/rks20191014/acn-devops.git (push)
+
+--
+
+git remote add origin https://github.com/rks20191014/acn-devops.git
+git push -u origin master
+create new file in UI
+git pull origin master
+ls
+ git log --oneline
+
+
+++++++++++++++++++++++++
+
+ git clone https://github.com/rks20191014/gitstudyguide.git
+
+git
+intialize
+create code
+
+--
+push
+
+
+
+create a new repository
+go to folder  in cmd
+git init
+
+D:\repo\javacode>git remote add origin https://github.com/rks20191014/JAVA_CODE.git
+
+
+D:\repo\javacode>git status
+
+
+D:\repo\javacode>git add .
+
+D:\repo\javacode>git add .
+
+D:\repo\javacode>git commit -m "java commit"
+
+
+D:\repo\javacode>git status
+
+D:\repo\javacode>git push -u origin master
+now check https://github.com/rks20191014/JAVA_CODE
+
+
+
+
